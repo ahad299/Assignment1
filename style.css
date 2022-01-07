@@ -11,25 +11,34 @@ h2{
     margin-top: 50px;
     align-self: center;
 }
+#myfocus{
+    padding-top: 70px;
+}
+#myphoto{
+    border-radius: 300px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
 section{
     display: flex;
+    margin-left: 100px;
+    margin-right: 100px;    
 }
 .split{
     margin: top px;;
     width: 50%;
-    padding-left: 5%;
+    padding-left: 30px;
     padding-top: 10px;
 }
 .split1{
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-left: 10px;
-    border-radius: 7px;
-    box-shadow: slategrey 10px 10px 10px;
+    border-radius: 10px;    
 }
 #mission{
-    background-color: rgb(145, 123, 94);
+    background-color:rgb(88, 156, 214);
 }
 #vision{
     background-color: violet;
@@ -45,7 +54,7 @@ section{
     color: orange;
 }
 #fstp{
-    margin-top: 50px;
+    margin-top: px;
 }
 .firstbutton{
     text-decoration: none;
@@ -68,7 +77,14 @@ section{
     margin-right: 5%;
     border-radius: 7px;
 }
-
+.split2{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 100px;
+    border-radius: 7px;
+    
+}
 
 footer{
     font-style: italic;
@@ -79,6 +95,10 @@ footer{
 #ftspan{
     color: orange;
 }
-#ftheat{
-    margin-top: 200px;
+#fthead{
+    margin-top: 100px;
+}
+.twoimg{
+    border-radius:10px;
+    width: 300px; 
 }
