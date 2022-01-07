@@ -22,8 +22,8 @@ h2{
 }
 section{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;    
+    margin-left: 6%;
+    margin-right: 6%;    
 }
 .split{
     margin: top px;;
@@ -35,7 +35,12 @@ section{
     margin-left: 2%;
     margin-right: 2%;
     padding-left: 10px;
-    border-radius: 10px;    
+    padding-right: 10px;
+    border-radius: 10px;
+    width: 25%;
+    height: 200px; 
+    
+
 }
 #mission{
     background-color:rgb(88, 156, 214);
@@ -56,11 +61,11 @@ section{
 #fstp{
     margin-top: px;
 }
-.firstbutton{
+.buttons{
     text-decoration: none;
-    color: rgb(151, 9, 9);
-    font-weight: 100;
-    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    padding: 6px 10px;
     border-radius: 5px;
     font-size: large;
     background-color: rgb(0, 150, 236);
@@ -100,5 +105,18 @@ footer{
 }
 .twoimg{
     border-radius:10px;
-    width: 300px; 
+    width: 290px; 
+    height: 300px;
+}
+#lastimg{
+    border-radius:10px;
+    width: autopx; 
+    height: 300px;
+    box-shadow: gray 10px 10px 10px;
+}
+#lastt{
+    background-image:url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-size: 2cm;
+;
 }
